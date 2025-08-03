@@ -53,7 +53,7 @@ print(f"Achieved accuracy: {accuracy*100:.1f}%")
 run_jupyter_analysis()
 ```
 
-## 📊 Dataset
+##  Dataset
 
 The system works with the UCI Heart Disease dataset containing 920 patients and 16 attributes:
 
@@ -91,17 +91,17 @@ The system creates 10+ new features based on medical domain knowledge:
 
 ### 🤖 Machine Learning Models
 
-| Model | Purpose | Key Features |
-|-------|---------|--------------|
-| **Random Forest** | Ensemble baseline | 500 trees, balanced classes |
-| **XGBoost** | Gradient boosting | Advanced regularization |
-| **Extra Trees** | Randomized ensemble | Extremely randomized splits |
-| **SVM** | Non-linear classification | RBF kernel, optimized parameters |
-| **Neural Network** | Deep learning | Multi-layer perceptron |
-| **Logistic Regression** | Linear baseline | L1/L2 regularization |
-| **Naive Bayes** | Probabilistic model | Gaussian assumption |
+ Model | Purpose | Key Features |
 
-### 🎭 Ensemble Methods
+ **Random Forest** | Ensemble baseline | 500 trees, balanced classes |
+ **XGBoost** | Gradient boosting | Advanced regularization |
+ **Extra Trees** | Randomized ensemble | Extremely randomized splits |
+ **SVM** | Non-linear classification | RBF kernel, optimized parameters |
+**Neural Network** | Deep learning | Multi-layer perceptron |
+ **Logistic Regression** | Linear baseline | L1/L2 regularization |
+ **Naive Bayes** | Probabilistic model | Gaussian assumption |
+
+###  Ensemble Methods
 
 1. **Performance-Weighted Ensemble**: Models weighted by individual accuracy
 2. **Top-3 Performers**: Uses only the 3 best-performing models
@@ -113,7 +113,7 @@ The system creates 10+ new features based on medical domain knowledge:
 ### Accuracy Comparison
 
 | Method | Accuracy | Improvement |
-|--------|----------|-------------|
+
 | Basic ML Models | 82-85% | Baseline |
 | Feature Engineering | 87-89% | +4-5% |
 | Advanced Ensemble | **92-95%** | **+7-10%** |
@@ -137,37 +137,9 @@ Ensemble Methods:
 └── Stacked Ensemble: 93.2%
 ```
 
-## 🔍 System Architecture
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                 Data Pipeline                           │
-├─────────────────────────────────────────────────────────┤
-│ Raw Data → Preprocessing → Feature Engineering          │
-│     ↓              ↓              ↓                     │
-│ Missing Value  → Encoding    → Medical Features         │
-│ Imputation       Categorical    Age², HR Reserve        │
-└─────────────────────────────────────────────────────────┘
 
-┌─────────────────────────────────────────────────────────┐
-│                 Model Training                          │
-├─────────────────────────────────────────────────────────┤
-│ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐        │
-│ │   RF    │ │  XGB    │ │   ET    │ │  SVM    │        │
-│ └─────────┘ └─────────┘ └─────────┘ └─────────┘        │
-│ ┌─────────┐ ┌─────────┐ ┌─────────┐                    │
-│ │   MLP   │ │   LR    │ │   NB    │                    │
-│ └─────────┘ └─────────┘ └─────────┘                    │
-└─────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────┐
-│               Ensemble Methods                          │
-├─────────────────────────────────────────────────────────┤
-│ Weighted → Top-3 → Voting → Stacked → Best Selection   │
-└─────────────────────────────────────────────────────────┘
-```
-
-## 📊 Visualizations
+##  Visualizations
 
 The system generates comprehensive visualizations:
 
@@ -178,7 +150,7 @@ The system generates comprehensive visualizations:
 5. **Accuracy Comparison**: Individual vs ensemble performance
 6. **Probability Distribution**: Prediction confidence analysis
 
-## 🔧 Advanced Usage
+##  Advanced Usage
 
 ### Custom Patient Prediction
 
@@ -228,29 +200,7 @@ hd_system.rf_model = RandomForestClassifier(
 )
 ```
 
-## 📁 Project Structure
 
-```
-heart-disease-prediction/
-├── heart_disease_prediction.py    # Main system code
-├── requirements.txt               # Python dependencies
-├── README.md                     # This file
-├── LICENSE                       # MIT License
-├── data/
-│   └── heart_disease_uci.csv    # Dataset (not included)
-├── notebooks/
-│   ├── exploration.ipynb        # Data exploration
-│   ├── model_comparison.ipynb   # Model analysis
-│   └── feature_engineering.ipynb # Feature analysis
-├── tests/
-│   ├── test_preprocessing.py    # Unit tests
-│   ├── test_models.py          # Model tests
-│   └── test_ensemble.py        # Ensemble tests
-└── docs/
-    ├── clinical_interpretation.md
-    ├── model_architecture.md
-    └── performance_analysis.md
-```
 
 ## 🛠️ Requirements
 
@@ -357,12 +307,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Open Source Contributors** for the excellent ML libraries
 - **Research Papers** that informed our feature engineering approach
 
-##  Contact
 
-- **Author**: [Your Name]
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile]
-- **Project**: [GitHub Repository Link]
 
 ##  Future Enhancements
 
@@ -384,7 +329,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📊 Quick Performance Summary
+##  Quick Performance Summary
 
 ```
  Accuracy: 93.2%
