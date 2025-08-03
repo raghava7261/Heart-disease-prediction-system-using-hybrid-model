@@ -7,20 +7,20 @@ A state-of-the-art machine learning system for predicting heart disease using ad
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Accuracy](https://img.shields.io/badge/Accuracy-92%25%2B-brightgreen)](README.md)
 
-## 🎯 Overview
+##  Overview
 
 This advanced heart disease prediction system combines cutting-edge machine learning techniques with medical domain expertise to provide highly accurate cardiovascular risk assessment. The system uses sophisticated feature engineering, multiple optimized models, and advanced ensemble methods to achieve superior performance.
 
 ### 🔬 Key Features
 
-- **🎯 92%+ Accuracy**: State-of-the-art performance through advanced ensemble methods
-- **🤖 7 ML Models**: Random Forest, XGBoost, Extra Trees, SVM, Neural Networks, Logistic Regression, Naive Bayes
-- **🧬 Medical Feature Engineering**: 10+ clinically-relevant engineered features
-- **🎭 4 Ensemble Methods**: Weighted, Top-3, Voting, and Stacked ensembles
-- **📊 Comprehensive Analysis**: Advanced visualizations and model interpretability
-- **💻 Production Ready**: Robust preprocessing, error handling, and scalable architecture
+- **92%+ Accuracy**: State-of-the-art performance through advanced ensemble methods
+- ** 7 ML Models**: Random Forest, XGBoost, Extra Trees, SVM, Neural Networks, Logistic Regression, Naive Bayes
+- **Medical Feature Engineering**: 10+ clinically-relevant engineered features
+- ** 4 Ensemble Methods**: Weighted, Top-3, Voting, and Stacked ensembles
+- ** Comprehensive Analysis**: Advanced visualizations and model interpretability
+- ** Production Ready**: Robust preprocessing, error handling, and scalable architecture
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -264,7 +264,7 @@ xgboost>=1.5.0
 jupyter>=1.0.0
 ```
 
-## 🎯 Clinical Interpretation
+##  Clinical Interpretation
 
 ### Risk Levels
 
@@ -316,7 +316,7 @@ pytest --cov=heart_disease_prediction tests/
 - **Memory Usage**: ~200MB peak during training
 - **Scalability**: Linear with dataset size
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
@@ -340,31 +340,31 @@ pre-commit install
 
 ### Contribution Areas
 
-- 🔬 **Medical Features**: Add new clinically-relevant features
-- 🤖 **Models**: Implement additional ML algorithms
-- 📊 **Visualizations**: Create new analysis plots
-- 🧪 **Testing**: Expand test coverage
-- 📚 **Documentation**: Improve clinical interpretations
+-  **Medical Features**: Add new clinically-relevant features
+-  **Models**: Implement additional ML algorithms
+-  **Visualizations**: Create new analysis plots
+-  **Testing**: Expand test coverage
+-  **Documentation**: Improve clinical interpretations
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **UCI Machine Learning Repository** for the heart disease dataset
 - **Medical Community** for clinical insights and validation
 - **Open Source Contributors** for the excellent ML libraries
 - **Research Papers** that informed our feature engineering approach
 
-## 📞 Contact
+##  Contact
 
 - **Author**: [Your Name]
 - **Email**: your.email@example.com
 - **LinkedIn**: [Your LinkedIn Profile]
 - **Project**: [GitHub Repository Link]
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 ### Planned Features (v2.0)
 
